@@ -14,7 +14,7 @@ body{
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 399px){
     body{
         display: grid;
         grid-template-rows: 100px 400px 2400px 700px 300px;
@@ -189,7 +189,7 @@ body{
 
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 399px){
 #art {
         display: none
     }
