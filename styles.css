@@ -1,4 +1,6 @@
-
+html{
+    font-size: 10px;
+}
 
 p{
     font-family: 'Playfair Display', serif;
@@ -6,8 +8,8 @@ p{
 
 body{
     display: grid;
-    grid-template-rows: 100px 400px 900px 700px 300px;
-    grid-template-columns: 20px auto auto auto auto auto 20px;
+    grid-template-rows: 10rem 40rem 90rem 70rem 30rem;
+    grid-template-columns: 2rem auto auto auto auto auto 2rem;
     margin: 0;
     padding: 0;
     margin: 0 auto; 
@@ -17,8 +19,8 @@ body{
 @media only screen and (max-width: 399px){
     body{
         display: grid;
-        grid-template-rows: 100px 400px 2400px 700px 300px;
-        grid-template-columns: 20px auto auto auto auto auto 20px;
+        grid-template-rows: 10rem 40rem 24rem 70rem 30rem;
+        grid-template-columns: 2rem auto auto auto auto auto 2rem;
         margin: 0;
         padding: 0;
         margin: 0 auto; 
@@ -38,9 +40,9 @@ body{
     position: fixed;
     margin-top: 0px;
     width: 100%;
-    height: 100px;
+    height: 10rem;
     z-index: 100;
-    padding: 0 20px;
+    padding: 0 2rem;
     box-sizing: border-box;
 }
 
@@ -48,8 +50,8 @@ body{
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        font-size: 50px;
-        margin-left: 35px;
+        font-size: 5rem;
+        margin-left: 3.5rem;
         padding: 0px;
         color: white;
         font-family: 'Playfair Display', serif;
@@ -58,22 +60,22 @@ body{
     }
 
     .navigation ul{
-        padding-right: 50px;
+        padding-right: 5rem;
         display: inline-flex;
-        gap: 50px;
+        gap: 5rem;
     }
 
     .navigation a{
         
         color: white;
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     .navigation button{
         display: none;
     }
 
-    @media only screen and (max-width: 640px){
+    @media only screen and (max-width: 64rem){
 
         .navigation ul{
             display: none;
@@ -82,17 +84,17 @@ body{
         .navigation button{
             display: flex;
             align-items: center;
-            width: 35px;
-            height: 5px;
+            width: 3.5rem;
+            height: 0.5rem;
             background-color: white;
-            margin: 6px 0;
+            margin: 0.6rem 0;
         }
 
         .parts{
             align-items: center;
             background-color: black;
             position:relative;
-            right: 35px;
+            right: 3.5rem;
         }
     }
 
@@ -106,7 +108,7 @@ body{
     background-image: url("./imagens/Mission\ image.jpg");
     background-position: center;
     background-size: cover;
-    height: 400px; /* Set a fixed height or adjust as needed */
+    height: 40rem; /* Set a fixed height or adjust as needed */
     display: flex;
     margin: 0 0;
     align-items: center;
@@ -115,10 +117,10 @@ body{
 
     #mission p{
         position: relative;
-        top: 275px;
+        top: 27.5rem;
         display: flex;
-        font-size: 25px;
-        letter-spacing: 5px;
+        font-size: 2.5rem;
+        letter-spacing: 0.5rem;
     }
 
 
@@ -136,13 +138,13 @@ body{
     }
     
     #art{
-        margin-top: 150px;
-        margin-bottom: 0px;
+        margin-top: 15rem;
+        margin-bottom: 0rem;
         grid-row: 3;
         grid-column: 2 / span 5;
         display: grid;
-        grid-template: minmax(50px 125x) minmax(50px 125x) / minmax(125px 250px) minmax(250px 500px) minmax(125px 250px);
-        gap: 20px;
+        grid-template: minmax(5rem 12.5rem) minmax(5rem 12.5rem) / minmax(12.5rem 25rem) minmax(25rem 50rem) minmax(12.5rem 25rem);
+        gap: 2rem;
         width: 100%;
     }
 
@@ -200,14 +202,14 @@ body{
     flex-direction: column;
     margin: 0 auto;
     position: relative;
-    top: 150px;
-    gap: 10px;
+    top: 15rem;
+    gap: 1rem;
 }
 
 #artt .image {
     width: 100%;
-    max-height: 500px;
-    min-height: 400px;
+    max-height: 50rem;
+    min-height: 40rem;
 }
 
 
@@ -223,7 +225,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 100px 0px;
+    margin: 10rem 0px;
 ;
     
 }
@@ -231,44 +233,44 @@ body{
 .founder {
     text-align: center;
     justify-content: center; 
-    padding: 20px;
+    padding: 2rem;
     align-items: center;
 }
 
 .founder img {
-    max-width: 300px;
+    max-width: 30rem;
     height: auto;
     border-radius: 50%; /* Optional: add border-radius for rounded images */
 }
 
 .founder p {
-    margin-top: 15px; /* Adjust margin as per your design */
-    font-size: 30px; /* Adjust font size as needed */
+    margin-top: 1.5rem; /* Adjust margin as per your design */
+    font-size: 3rem; /* Adjust font size as needed */
     font-family: 'Playfair Display', serif;
     color: black;
     font-weight: 500;
-    padding: 30px;
+    padding: 3rem;
 }
 
 #location{
     text-align: center;
     grid-row: 5;
     grid-column: 2 /span 5;
-    margin-top: 20px; 
-    margin-top: 25px;
-    padding: 0px;
+    margin-top: 2rem; 
+    margin-top: 2.5rem;
+    padding: 0rem;
     width: 100%;
     height: auto;
 }
 
 #location p{
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Playfair Display', serif;
 }
 
 iframe{
     width: 100%;
-    height: 600px;
+    height: 60rem;
     margin: 0 auto;
 }
 
@@ -280,6 +282,6 @@ iframe{
 @media only screen and (max-width: 719px){
     #location{
         position: relative;
-        top: 700px;
+        top: 70rem;
     }
 }
